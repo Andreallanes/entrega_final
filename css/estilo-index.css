@@ -1,0 +1,42 @@
+main {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    width: 100%;
+    background-color: #e5c7fa;
+    justify-content: space-evenly;
+    font-family: "Roboto Condensed", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+}
+
+section {
+    margin: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    flex-direction: row;
+    align-items: center;
+    text-align: center;
+    color:  #6a0dab;
+}
+
+
+@media (max-width: 600px) {
+    .letra{
+        font-size: 1rem;
+    }
+}
+
+@media (min-width: 601px) and (max-width: 1024px) {
+    .letra{
+        font-size: 1.5rem;
+    }
+}
+
+@media (min-width: 1025px) {
+    .letra{
+        font-size: 2rem;
+    }
+}

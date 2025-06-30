@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tienda</title>
+    <link rel="stylesheet" href="../css/estilo-contacto.css">
+    <link rel="stylesheet" href="../css/header-y-footer.css">
+</head>
+<body>
+    <header>
+        <div class="contenedor">
+            <a href="./index.html"><img src="../imagenes/logo.jpg" alt="Logo" width="50" height="50"></a>
+            <h1>Contacto</h1>
+        </div>  
+        <nav>
+            <ul>
+                <li><a class="menu"  href="../index.html">Inicio</a></li>
+                <li><a class="menu"  href="./productos.html">Productos</a></li>
+                <li><a class="menu"  href="./opiniones.html">Reseñas</a></li>
+                <li>
+                    <a href="../paginas/carrito.html">
+                        <i class="fa-solid fa-cart-shopping" style="font-size:20px"></i>
+                    </a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <p class="margen">Recibimos su consulta, opinión, sugerencia o comentario de la atención que recibió. <br> Nos interesa saber si esta satisfecho con el tiempo y forma de entrega. 
+            </p> 
+            <p class="margen">También agradeceríamos si nos deja una reseña de lo que le parecieron el o los artículos que recibió. <br> Frente a cualquier duda o comentario no dude en contactarnos. 
+            </p> 
+            <p class="margen">Otra forma de contactarnos es por mail:
+                <a class="tamaño" href="mailto:llanesandrea0@gmail.com"> <i class="fa-solid fa-envelope"></i> llanesandrea0@gmail.com</a> 
+            </p> 
+            <p class="margen">También nos podes contactar por whatsapp y por nuestras redes sociales, tenes todos los links en el pie de página</p> 
+            <p class="margen">Esperamos su próxima visita en nuestra página o en nuestro local, para nosotros es un placer recibirte.</p> 
+            <p class="margen">Proximamente verá su comentario en la página de Reseñas.</p>
+            <p class="margen">Gracias</p>
+        </section>
+        <section>
+            <form action="https://formspree.io/f/xqakzpbv" method="POST">
+                <fieldset class="contenedor-datos">
+                    <legend>Datos Personales</legend>
+                    <label for="firstname">Nombre: </label>                   
+                    <input class="tamaño" size="30" type="text" name="firstname" placeholder="Ingrese su nombre aquí . . ." required> <br>
+                    <label for="lastname">Apellido: </label>
+                    <input class="tamaño" size="30" type="text" name="firstname" placeholder="Ingrese su apellido aquí . . ."><br>    
+                    <label for="email">Mail: </label>
+                    <input class="tamaño" type="email" name="email" placeholder="Ingrese su mail aquí . . . " required> <br>
+                </fieldset>
+                <label class="contenedor-datos" for="tema">Motivo de Contacto</label>
+                <select name="tema" id="tema">
+                    <option value="consulta">Consulta</option>
+                    <option value="opinion">Opinion/Reseña</option>
+                    <option value="sugerencia">Sugerencia</option>
+                    <option value="comentario">Comentario</option>
+                </select>
+                <p class="alinear">¿Realizaste una compra en nuestro comercio? <br>
+                    <input type="radio" name="cliente" value="Si">Si <br>
+                    <input type="radio" name="cliente" value="No">No
+                </p> 
+                <fieldset class="rating contenedor-datos">
+                    <legend>Calificacion</legend>
+                    <input type="radio" id="star5" name="rating" value="5"> 
+                    <label for="star5">
+                        <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> Excelente
+                    </label> <br>
+                    <input type="radio" id="star5" name="rating" value="4">
+                    <label for="star4">
+                        </i> <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> Muy bueno
+                    </label> <br>
+                    <input type="radio" id="star5" name="rating" value="3">
+                    <label for="star3">
+                        <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> Bueno
+                    </label> <br>
+                    <input type="radio" id="star5" name="rating" value="2">
+                    <label for="star2">
+                        <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> Regular
+                    </label> <br>
+                    <input type="radio" id="star5" name="rating" value="1">
+                    <label for="star1">
+                        <i class="fa-solid fa-star"></i> Malo
+                    </label> <br>
+                </fieldset>
+                <p class="alinear">¿Como nos conociste? <br>                        
+                    <input type="checkbox" name="conocio" value="recomendacion">Recomendación de un amigo o conocido <br>
+                    <input type="checkbox" name="conocio" value="redesSociales">Nos viste en nuestras redes Sociales <br>
+                    <input type="checkbox" name="conocio" value="frecuentas">Frecuentas la zona de nuestro local físico
+                </p> 
+                <label class="contenedor-datos" for="comentarios">Comentarios: </label> <br>
+                <textarea class="contenedor-datos" name="comentarios" rows="5" cols="30" placeholder="Ingrese su comentario aquí . . ." required></textarea>
+                <br>
+                <button type="submit">Enviar</button>
+                <button type="reset">Borrar</button>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <ul>
+            <li> 
+                <a href="https://wa.link/2qo1b2">
+                    <i class="fa-brands fa-whatsapp" style="font-size:20px"></i>
+                </a>
+            </li>
+            <li>
+                <a href="https://www.instagram.com/andreallanes.78/profilecard/?igsh=bzJpbjk0bzIyMGV1">
+                    <i class="fa-brands fa-instagram" style="font-size:20px"></i>
+                </a>
+            </li>
+            <li>
+                <a href="https://www.facebook.com/share/NyEHwFt6qyBSPikB/">
+                    <i class="fa-brands fa-facebook" style="font-size:20px"></i>
+                </a>
+            </li>
+            <li>
+                <a href="https://linkedin.com/">
+                    <i class="fa-brands fa-linkedin" style="font-size:20px"></i>
+                </a>
+            </li>
+            <li>
+                <a href="http://twitter.com/">
+                    <i class="fa-brands fa-twitter" style="font-size:20px"></i>
+                </a>
+            </li>
+        </ul> 
+        <p>Copyright; 2025 Mi tienda</p>
+    </footer>
+    <script src="https://kit.fontawesome.com/bb94350652.js" crossorigin="anonymous">
+    </script>
+</body>
+</html>

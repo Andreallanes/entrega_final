@@ -1,0 +1,13 @@
+main {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    background-color: #e5c7fa;
+    justify-content: space-evenly;
+    align-items: stretch;
+    font-family: "Roboto Condensed", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+}
+

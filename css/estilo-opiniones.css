@@ -1,0 +1,36 @@
+main {
+    width: 100%;
+    background-color: #e5c7fa;
+    color:  #6a0dab;
+    font-family: "Roboto Condensed", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 2rem;
+    width:100%;
+    height: auto;
+}
+
+section {
+    display: grid;
+}
+
+article{
+    border: 2px solid #d6a0fb;
+    margin: 10px;
+}
+
+@media only screen and (max-width: 992px) {
+    section{
+        grid-template-columns: 1fr;
+    }
+    main{
+        font-size: 1.5rem;
+    }
+}
+
+@media only screen and (min-width:1200px) {
+    section{
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}

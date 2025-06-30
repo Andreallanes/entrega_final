@@ -1,0 +1,177 @@
+main {
+    width: 100%;
+    background-color: #e5c7fa;
+    color:  #6a0dab;
+    font-family: "Roboto Condensed", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+    height: auto;
+    display: grid;
+}
+
+
+section {
+    border: 2px solid #d6a0fb;
+}
+
+.contenedor-datos {
+    margin: 15px;
+}
+
+input,
+textarea,
+select {
+    border: 1px solid  #6a0dab;
+    background-color: #d6a0fb;
+    color: #6a0dab;
+}
+
+input,
+select {
+    height: 30px;
+    margin: 4px;
+}
+
+textarea {
+    width: 95%;
+    height: auto;
+}
+
+
+button {
+    border: 1px solid #6a0dab;
+    background-color:  #d6a0fb;
+    color: white;
+}
+
+.rating {
+    display:inline-block;
+}
+.rating input {
+    display: none;
+}
+.rating label {
+    cursor:pointer;
+    font-size: 24px;
+    color:  #6a0dab;
+}
+.rating label:hover,
+.rating input:checked + label{
+    color:gold;
+}
+
+.tamaño {
+    color:  #6a0dab;
+}
+
+@media (max-width: 600px) {
+    main{
+        display: grid;
+        font-size: 1.3rem;
+        grid-template-columns: 1fr;
+        justify-items: center;
+        font-size: 1rem;
+    }
+    section{
+        width: 95%;
+        margin: 10px;
+    }
+    textarea {
+        width:70%;
+    }
+    header, 
+    footer {
+        width: 85%;
+    }
+    .tamaño{
+        font-size: 0.8rem;
+    }
+    .margen {
+        margin: 2rem;
+    }
+    input, 
+    textarea,
+    select {
+        font-size:1rem;
+    }
+    button {
+        font-size: 0.8rem;
+        margin: 10px;
+    }
+    .rating label {
+        font-size: 14px;
+    }
+}
+
+@media (min-width: 601px) and (max-width:1024px) {
+    main{
+        display: grid;
+        font-size: 1.3rem;
+        grid-template-columns: 1fr;
+        justify-items: center;
+        font-size: 1.3rem;
+    }
+    section{
+        width: 95%;
+        margin:20px;
+    }
+    textarea {
+        width:70%;
+    }
+    header, 
+    footer {
+        width: 85%;
+    }
+    select {
+        font-size: 1rem;
+    }
+    .tamaño{
+        width: 90%;
+        font-size: 1rem;
+    }
+    .margen {
+        margin: 2.5rem;
+    }
+    input, 
+    textarea,
+    select {
+        font-size:1rem;
+    }
+    button {
+        font-size: 1.2rem;
+        margin: 12px;
+    }
+    .rating label {
+        font-size: 20px;
+    }
+}
+
+@media (min-width:1025px) {
+    main{
+        display:grid;
+        grid-template-columns: 1fr 1fr;
+        font-size: 1.5rem;
+    }
+    .margen {
+        margin: 3rem;
+    }
+    section {
+        margin: 20px;
+    }
+    .tamaño {
+        font-size: 1.5rem;   
+    }
+    input, 
+    textarea,
+    select {
+        font-size:1.5rem;
+    }
+    button {
+        font-size: 1.5rem;
+        margin: 15px;
+    }
+    .rating label {
+        font-size: 24px;
+    }
+}
