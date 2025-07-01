@@ -11,3 +11,59 @@ main {
     font-style: normal;
 }
 
+h2 {
+    color: #6a0dab;
+    font-weight: 400;
+}
+
+button {
+    border: 1px solid #6a0dab;
+    background-color:  #d6a0fb;
+    color: white;
+    margin-top: 10px;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+}
+
+#contenedor-productos h2{
+    flex-basis: 100%;
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+#contenedor-productos {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    justify-content: center;
+    margin: 2rem;
+}
+
+.tarjeta-producto {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    width: 25%;
+    text-align: center;
+    border: 1px solid #6a0dab;
+    height: auto;
+}
+
+.tarjeta-producto img {
+    height: 140px;
+    object-fit: contain;
+    margin-bottom: .5rem;
+}
+
+.titulo-producto, 
+.precio-producto {
+    color:#6a0dab;   
+}
+@media (max-width: 600px) {
+    button {
+        padding: 0.5rem;
+    }
+    
+}

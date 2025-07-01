@@ -43,6 +43,9 @@ button {
     border: 1px solid #6a0dab;
     background-color:  #d6a0fb;
     color: white;
+    margin-top: 10px;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
 }
 
 .rating {

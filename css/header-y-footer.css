@@ -79,6 +79,12 @@ a {
     color: white
 }
 
+
+#contador-carrito {
+    font-size:20px;
+    margin: 1rem;
+}
+
 @media  (max-width: 600px) {
     p {
     font-size: 0.8rem;

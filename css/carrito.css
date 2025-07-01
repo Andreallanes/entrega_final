@@ -1,0 +1,35 @@
+main {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    background-color: #e5c7fa;
+    justify-content: space-evenly;
+    align-items: stretch;
+    font-family: "Roboto Condensed", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+}
+
+h2 {
+    color: #6a0dab;
+    font-weight: 400;
+}
+
+button {
+    border: 1px solid #6a0dab;
+    background-color:  #d6a0fb;
+    color: white;
+    margin-top: 10px;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+}
+
+.consejo {
+    width: 300px;
+    padding: 2rem;
+}
+
+p{
+    color:#6a0dab;
+}
