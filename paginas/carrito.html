@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Tienda</title>
     <link rel="stylesheet" href="../css/header-y-footer.css">
     <link rel="stylesheet" href="../css/carrito.css">
 </head>
@@ -19,29 +19,25 @@
                 <li><a class="menu"  href="./productos.html">Productos</a></li>
                 <li><a class="menu"  href="./opiniones.html">Reseñas</a></li>
                 <li><a class="menu"  href="./contacto.html">Contacto</a></li>
+                <li>
+                    <a href="../paginas/carrito.html">
+                        <i class="fa-solid fa-cart-shopping" style="font-size:20px"></i>
+                        <span id="contador-carrito">0</span>
+                    </a>
+                </li>
             </ul>
         </nav>
     </header>
     <main>
-        <section class = "izquierda">
-            <section id="contenedor-carrito">
-                <!-- Productos del carrito -->
+        <section class="carrito">
+            <section id="contenedorDelCarrito">
+            <!-- Productos del carrito -->
             </section>
         
-            <div id="acciones-carrito">
+            <div id="accionesDelCarrito">
                 <!-- Botones de eliminar y finalizar compra se agregan desde JS -->
             </div>
-
-            <section id="resumen-carrito">
-                <!-- Acá ira el resumen del carrito -->
-            </section>
-        </section>
-
-        <section class="consejo">
-            <p>Consejo:<br>como quitar manchas</p>
-            <video controls>
-                <source src="../video/consejo.mp4" autoplay type="video/mp4">
-            </video>
+            
         </section>
     </main>
     <footer>
@@ -74,7 +70,7 @@
         </ul> 
         <p>Copyright; 2025 Mi tienda</p>
     </footer>
-    <script src="https://kit.fontawesome.com/bb94350652.js" crossorigin="anonymous">
-    </script>
+    <script src="https://kit.fontawesome.com/bb94350652.js" crossorigin="anonymous"></script>
+    <script src="../js/carrito.js"></script>
 </body>
 </html>

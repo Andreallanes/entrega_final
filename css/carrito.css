@@ -20,16 +20,43 @@ button {
     border: 1px solid #6a0dab;
     background-color:  #d6a0fb;
     color: white;
-    margin-top: 10px;
+    margin: 10px;
     padding: 0.5rem 1rem;
     cursor: pointer;
 }
 
-.consejo {
-    width: 300px;
-    padding: 2rem;
+
+.carrito{
+    border: 1px solid #6a0dab;
+    padding: 1rem;
+    margin: 1rem;
 }
 
 p{
     color:#6a0dab;
+}
+
+#contenedorDelCarrito{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    justify-content: center;
+}
+
+.producto-carrito{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    width: 25%;
+    text-align: center;
+    border: 1px solid #6a0dab;
+    height: auto;
+}
+
+.producto-carrito img{
+    height: 140px;
+    object-fit: contain;
+    margin-bottom: .5rem;
 }

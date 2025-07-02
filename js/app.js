@@ -8,22 +8,22 @@ document.addEventListener("DOMContentLoaded", ()=>{
         fetch(url)
             .then(res => res.json())
             .then(data => {
-                let contenedorProductos = document.getElementById("contenedor-productos");
+                let contenedorProductos = document.getElementById("contenedorDeProductos");
 
                 for(const producto of data.products){
                     let tarjetaProducto = document.createElement("article");
-                    tarjetaProducto.classList.add("tarjeta-producto");
+                    tarjetaProducto.classList.add("tarjetaDeProducto");
 
                     let imagenProducto = document.createElement("img");
                     imagenProducto.src = producto.images[0];
                     imagenProducto.alt = producto.description;
 
                     let tituloProducto = document.createElement("h3");
-                    tituloProducto.classList.add("titulo-producto");
+                    tituloProducto.classList.add("tituloDeProducto");
                     tituloProducto.textContent = producto.title;
 
                     let precioProducto = document.createElement("p");
-                    precioProducto.classList.add("precio-producto");
+                    precioProducto.classList.add("precioDeProducto");
                     precioProducto.textContent = `$${producto.price}`;
 
                     let btnAgregar = document.createElement("button")
