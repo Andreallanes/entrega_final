@@ -68,3 +68,9 @@ p{
     object-fit: contain;
     margin-bottom: .5rem;
 }
+
+@media (max-width: 600px) {
+    button {
+        padding: 0.5rem;
+    }
+}
