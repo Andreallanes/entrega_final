@@ -11,12 +11,12 @@ html {
     box-sizing:border-box;    
 }
 
+
 footer {
     display: flex;
     flex-wrap: wrap;
     color: white;
     background-color: #d6a0fb;
-    position:relative;
     bottom:0;
     left:0;
     width:100%;   

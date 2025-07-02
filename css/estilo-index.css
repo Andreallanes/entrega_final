@@ -11,6 +11,10 @@ main {
     font-style: normal;
 }
 
+footer {
+    position:relative;
+}
+
 section {
     margin: 20px;
     display: flex;

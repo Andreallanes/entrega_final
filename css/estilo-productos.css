@@ -11,6 +11,10 @@ main {
     font-style: normal;
 }
 
+footer {
+    position:relative;
+}
+
 h2 {
     color: #6a0dab;
     font-weight: 400;

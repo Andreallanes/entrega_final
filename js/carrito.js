@@ -10,9 +10,10 @@ document.addEventListener("DOMContentLoaded", () => {
         if (!carrito.length){
             let mensajeCarrito = document.createElement("p");
             mensajeCarrito.classList.add("mensaje-carrito");
-            mensajeCarrito.textContent = "No hay productos en carrito";
+            mensajeCarrito.textContent = "No hay productos en el carrito";
 
             seccionProductos.appendChild(mensajeCarrito);
+
         }else{
             carrito.forEach((elemento, index) => {
                 let tarjetaProducto = document.createElement("article");

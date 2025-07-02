@@ -11,6 +11,10 @@ main {
     height: auto;
 }
 
+footer {
+    position:relative;
+}
+
 section {
     display: grid;
 }

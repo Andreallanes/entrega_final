@@ -1,3 +1,7 @@
+body {
+    background-color: #e5c7fa;
+}
+
 main {
     display: flex;
     flex-wrap: wrap;
@@ -9,6 +13,10 @@ main {
     font-optical-sizing: auto;
     font-weight: 300;
     font-style: normal;
+}
+
+footer {
+    position:absolute;
 }
 
 h2 {
